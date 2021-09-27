@@ -1,4 +1,34 @@
 {
+	"MonoBehaviour NewPublicVoid": {
+		"prefix": "NewPublicVoid()",
+		"description": "A template public void",
+		"body": [
+			"public void NameHere()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour NewPrivateVoid": {
+		"prefix": "NewPrivateVoid()",
+		"description": "A template private void",
+		"body": [
+			"private void NameHere()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour NewVoid": {
+		"prefix": "NewVoid()",
+		"description": "A template void",
+		"body": [
+			"void NameHere()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
 	"MonoBehaviour Awake": {
 		"prefix": "Awake()",
 		"description": "Awake is called when the script instance is being loaded.",
